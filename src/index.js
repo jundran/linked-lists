@@ -2,7 +2,8 @@ const LinkedList = require('./linked-list.js')
 
 console.log('----- Create, append and print -----')
 const list = new LinkedList()
-list.append(1); list.append(2); list.append(3); list.append(4); list.append(5)
+list.append(3); list.append(4); list.append(5)
+list.prepend(2); list.prepend(1)
 console.log('Print list:', list.toString())
 console.log('List size:', list.size)
 

@@ -1,14 +1,13 @@
 module.exports = {
 	'env': {
-		'commonjs': true,
-		'es2021': true,
 		'node': true
 	},
 	'extends': 'eslint:recommended',
 	'overrides': [
 	],
 	'parserOptions': {
-		'ecmaVersion': 'latest'
+		'ecmaVersion': 'latest',
+		'sourceType': 'module'
 	},
 	'rules': {
 		'indent': [
@@ -39,6 +38,16 @@ module.exports = {
 			'error',
 			'always'
 		],
+		'eol-last': [
+			'error',
+			'always'
+		],
+		'comma-dangle':
+		[
+			'error',
+			'never'
+		],
+		'no-trailing-spaces': 'error',
 		'no-unused-vars': 'warn'
 	}
 }

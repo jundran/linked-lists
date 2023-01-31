@@ -3,8 +3,8 @@
 ## Description
 TOP - Linked Lists project  
 
-## Run
-Clone and run index.js using Node.js
+## Live
+https://replit.com/@jundran/linked-lists#index.js
 
 ## Project Requirements
 https://www.theodinproject.com/lessons/javascript-linked-lists
