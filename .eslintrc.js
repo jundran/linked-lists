@@ -1,13 +1,13 @@
 module.exports = {
 	'env': {
-		'node': true
+		'node': true,
+		'commonjs': true
 	},
 	'extends': 'eslint:recommended',
 	'overrides': [
 	],
 	'parserOptions': {
-		'ecmaVersion': 'latest',
-		'sourceType': 'module'
+		'ecmaVersion': 'latest'
 	},
 	'rules': {
 		'indent': [
